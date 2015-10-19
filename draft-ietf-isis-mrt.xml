@@ -217,7 +217,7 @@
         MRT profile.</t>
       </section>
 
-      <section title="Selecting GADAG Root">
+      <section title="Selecting the GADAG Root">
         <t>As per <xref target="I-D.ietf-rtgwg-mrt-frr-algorithm"/>, a
         GADAG root MUST be selected for one MRT Island. An unique
         GADAG root in common-sense among MRT Island routers is a
@@ -303,7 +303,7 @@ structure of the MRT Profile sub-TLV is pictured as below:</t>
 <artwork><![CDATA[
                                            Number of octets
 +-------------------------------+
-|R |R |R |R |        MT ID      |                 2
+|R |R |R |R |        MT-ID      |                 2
 +-------------------------------+
 | MRT Profile ID                |                 1
 +-------------------------------+
@@ -429,9 +429,11 @@ shown below:</t>
 
 <t>TYPE: TBA-MRT-ISIS-3 (To Be Allocated by IANA)</t>
 
-<t>LENGTH: 1</t>
+<t>LENGTH: 3</t>
 
 <t>VALUE:</t>
+
+<t>MT-ID (2 octets with 4 bits reserved)</t>
 
 <t>FIB compute/install time (1 octet)</t>
 
@@ -439,7 +441,7 @@ shown below:</t>
 <artwork><![CDATA[
                                            Number of octets
 +-------------------------------+
-|R |R |R |R |        MT ID      |                 2
+|R |R |R |R |        MT-ID      |                 2
 +-------------------------------+
 |  FIB compute/install time     |                 1
 +-------------------------------+
