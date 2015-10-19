@@ -384,17 +384,13 @@ routing in IS-IS. The current document specifies how to signal support
 for MRT in the default routing topology only. The format of the 
 extensions in this document allows the MRT Profile sub-TLV and the 
 MRT-Ineligible Link sub-TLV to be scoped to topologies with non-zero 
-MT-ID at some point in future. However, this document restricts these 
+MT-ID at some point in the future. However, this document restricts these 
 extensions to apply only to the default topology. The MRT Profile 
-sub-TLV is restricting by explicitly requiring the MT-ID field to be set 
+sub-TLV is restricted by explicitly requiring the MT-ID field to be set 
 to zero. The MRT-Ineligible Link sub-TLV is restricted by only allowing 
 it to be included in the Extended IS Reachability TLV (TLV#22) which is 
 scoped to the default topology, and not allowing it to appear TLV#222 
 (the topology-scoped version of the Extended IS Reachability TLV). </t> 
-
-
-
- 
 
 <t>Lifting these restrictions is for further study. Note that the MRT 
 signalling extensions in this document can co-exist with IS-IS 
