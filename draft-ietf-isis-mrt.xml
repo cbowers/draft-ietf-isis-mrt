@@ -12,7 +12,7 @@
 <?rfc inline="yes"?>
 <?rfc compact="yes"?>
 <?rfc subcompact="no"?>
-<rfc category="std" docName="draft-ietf-isis-mrt-01" ipr="trust200902">
+<rfc category="std" docName="draft-ietf-isis-mrt-02" ipr="trust200902">
   <front>
     <title abbrev="IS-IS Extensions for MRT">Intermediate System to
     Intermediate System (IS-IS) Extensions for Maximally Redundant Trees
@@ -89,21 +89,21 @@
       </address>
     </author>
 
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
-      <organization>Ericsson</organization>
-      <address>
-        <postal>
-          <street>300 Holger Way</street>
-          <city>San Jose</city>
-          <region>CA</region>
-          <code>95134</code>
-          <country>USA</country>
-        </postal>
-        <email>jeff.tantsura@ericsson.com</email>
-      </address>
-    </author>
+   <author fullname="Jeff Tantsura" initials="J.T." surname="Tantsura">
+   <organization>Individual</organization>
+   <address>
+     <postal>
+       <street></street>
+       <city></city>
+         <region></region>
+         <code></code>
+         <country>USA</country>       
+     </postal>
+     <email>jefftant.ietf@gmail.com</email>
+   </address>
+   </author>
 
-    <date day="19" month="October" year="2015"/>
+    <date day="18" month="May" year="2016"/>
 
 <abstract>
   <t>This document describes extensions to IS-IS to
